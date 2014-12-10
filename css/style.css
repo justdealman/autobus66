@@ -1441,3 +1441,347 @@ button::-moz-focus-inner {
 		background-size:cover !important;
 	}
 }
+
+.content .list {
+	width:auto;
+	padding:20px 0 74px;
+	margin:-46px 0 37px;
+	background:#f2efeb;
+}
+.content .list > div {
+	width:940px;
+	margin:0 auto;
+}
+.content .list .filter {
+	padding:25px 0 4px 20px;
+	margin:0 0 15px;
+	background:#ffffff;
+	-webkit-box-shadow:0 2px 2px rgba(0,0,0,0.05);
+	-moz-box-shadow:0 2px 2px rgba(0,0,0,0.05);
+	box-shadow:0 2px 2px rgba(0,0,0,0.05);
+}
+.content .list .filter > div {
+	margin:0 0 7px;
+}
+.content .list .filter > div h5 {
+	display:inline-block;
+	min-width:130px;
+	color:#333333;
+	font-size:16px;
+	line-height:20px;
+	font-weight:300;
+    font-family:'Roboto', sans-serif;
+	vertical-align:top;
+	padding:4px 0 6px;
+	margin:0 10px 10px 0;
+}
+.content .list .filter > div ul {
+	display:inline-block;
+	margin:0;
+}
+.content .list .filter > div ul li {
+	display:inline-block;
+	margin:0 9px 10px 0;
+}
+.content .list .filter > div ul li a {
+	display:block;
+	color:#555555;
+	font-size:16px;
+	line-height:20px;
+	text-decoration:none;
+	padding:5px 17px 3px 16px;
+	border:1px solid #aaaaaa;
+	transition:all 0.1s ease-in-out;
+	-webkit-transition:all 0.1s ease-in-out;
+	-moz-transition:all 0.1s ease-in-out;
+	-o-transition:all 0.1s ease-in-out;
+}
+.content .list .filter > div ul li a:hover {
+	color:#ff6c00;
+	border:1px solid #ff6c00;
+}
+.content .list .sort {
+	padding:0 0 10px;
+	margin:0 0 20px;
+	border-bottom:1px solid #cccccc;
+}
+.content .list .sort h5 {
+	display:inline-block;
+	font-size:15px;
+	line-height:19px;
+	font-weight:normal;
+	vertical-align:top;
+	padding:0;
+	margin:0 37px 0 0;
+}
+.content .list .sort ul {
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+}
+.content .list .sort ul li {
+	display:inline-block;
+	vertical-align:top;
+	margin:0 0 0 37px;
+}
+.content .list .sort ul li:first-child {
+	margin-left:0;
+}
+.content .list .sort ul li.active {
+	padding-right:16px;
+	background:url('../img/list_sort_arrow.png') no-repeat right 6px;
+}
+.content .list .sort ul li a {
+	position:relative;
+	color:#145da3;
+	font-size:15px;
+	line-height:19px;
+	text-decoration:none;
+}
+.content .list .sort ul li a:after {
+	content:'';
+	position:absolute;
+	left:0;
+	bottom:2px;
+	width:100%;
+	border-bottom:1px dashed #145da3;
+}
+.content .list > div > ul {
+	margin:0;
+}
+.content .list > div > ul > li {
+	clear:both;
+	overflow:hidden;
+	margin:0 0 20px;
+	background:#ffffff;
+	-webkit-box-shadow:0 2px 2px rgba(0,0,0,0.05);
+	-moz-box-shadow:0 2px 2px rgba(0,0,0,0.05);
+	box-shadow:0 2px 2px rgba(0,0,0,0.05);
+}
+.content .list > div > ul > li .information {
+	float:left;
+	width:420px;
+	padding:14px 20px 20px 20px;
+}
+.content .list > div > ul > li .information h2 {
+	color:#333333;
+	font-size:24px;
+	line-height:28px;
+	text-transform:uppercase;
+	padding:0;
+	margin:0 0 24px 3px;
+}
+.content .list > div > ul > li .information > ul {
+	clear:both;
+	overflow:hidden;
+	margin:0 0 17px;
+}
+.content .list > div > ul > li .information > ul li {
+	float:left;
+	min-width:80px;
+	color:#777777;
+	font-size:14px;
+	line-height:22px;
+	padding:32px 0 0;
+	margin:0 0 0 20px;
+}
+.content .list > div > ul > li .information > ul li:first-child {
+	margin-left:0;
+}
+.content .list > div > ul > li .information > ul li.seats {
+	background:url('../img/seats_big_icon.png') no-repeat left 3px;
+}
+.content .list > div > ul > li .information > ul li.distance {
+	background:url('../img/distance_big_icon.png') no-repeat left 8px;
+}
+.content .list > div > ul > li .information > ul li.period {
+	background:url('../img/period_big_icon.png') no-repeat left 6px;
+}
+.content .list > div > ul > li .information > ul li strong {
+	color:#555555;
+	font-size:22px;
+	font-family:'Roboto', sans-serif;
+}
+.content .list > div > ul > li .information > div {
+	clear:both;
+	overflow:hidden;
+}
+.content .list > div > ul > li .information > div h5 {
+	float:left;
+	color:#555555;
+	font-size:12px;
+	line-height:16px;
+	font-weight:normal;
+	font-family:'Roboto', sans-serif;
+	padding:13px 0 11px;
+	margin:0;
+}
+.content .list > div > ul > li .information > div button {
+	float:right;
+	width:142px;
+	color:#ffffff;
+	font-size:18px;
+	line-height:22px;
+	font-weight:bold;
+	text-align:center;
+	text-shadow:0 1px 0 rgba(255,255,255,0.2);
+	cursor:pointer;
+	padding:9px 8px 7px;
+	margin:4px 0 0;
+	background:url('../img/form_button.png') repeat-x top;
+	border:1px solid #e33b00;
+	-webkit-box-shadow:0 0 3px rgba(252,247,192,0.41);
+	-moz-box-shadow:0 0 3px rgba(252,247,192,0.41);
+	box-shadow:0 0 3px rgba(252,247,192,0.41);
+	transition:all 0.1s ease-in-out;
+	-webkit-transition:all 0.1s ease-in-out;
+	-moz-transition:all 0.1s ease-in-out;
+	-o-transition:all 0.1s ease-in-out;
+	opacity:0;
+}
+.content .list > div > ul > li:hover .information > div button {
+	opacity:1;
+}
+.content .list > div > ul > li .information > div button:hover {
+	background-position:0 -38px;
+}
+.content .list > div > ul > li .gallery {
+	position:relative;
+	float:right;
+	width:480px;
+}
+.content .list > div > ul > li .gallery h6 {
+	position:absolute;
+	left:-10px;
+	top:10px;
+	z-index:1;
+	font-size:13px;
+	line-height:17px;
+	font-weight:bold;
+	text-shadow:0 1px 0 rgba(255,255,255,0.2);
+	padding:7px 21px 3px 21px;
+	margin:0;
+}
+.content .list > div > ul > li .gallery h6:after {
+	content:'';
+	position:absolute;
+	left:0;
+	bottom:-5px;
+	border-left:10px solid transparent;
+}
+.content .list > div > ul > li .gallery h6.lux {
+	color:#e8af00;
+	background:#f7ef75;
+}
+.content .list > div > ul > li .gallery h6.lux:after {
+	border-top:5px solid #d8ce30;
+}
+.content .list > div > ul > li .gallery h6.lux:before {
+	content:'';
+	position:absolute;
+	right:-5px;
+	top:0;
+	width:5px;
+	height:27px;
+	background:url('../img/lux_right_before.png') no-repeat left top;
+}
+.content .list > div > ul > li .gallery h6.comfort {
+	color:#00a4e1;
+	background:#8cebf9;
+}
+.content .list > div > ul > li .gallery h6.comfort:after {
+	border-top:5px solid #49c9dc;
+}
+.content .list > div > ul > li .gallery h6.comfort:before {
+	content:'';
+	position:absolute;
+	right:-5px;
+	top:0;
+	width:5px;
+	height:27px;
+	background:url('../img/comfort_right_before.png') no-repeat left top;
+}
+.content .list > div > ul > li .gallery h6.budget {
+	color:#78c20e;
+	background:#c3f779;
+}
+.content .list > div > ul > li .gallery h6.budget:after {
+	border-top:5px solid #a5e050;
+}
+.content .list > div > ul > li .gallery  > div {
+	overflow:hidden;
+	position:relative;
+	float:left;
+	width:340px;
+	height:206px;
+}
+.content .list > div > ul > li .gallery  > div img {
+	position:absolute;
+	left:0;
+	top:0;
+	min-width:340px;
+	min-height:206px;
+}
+.content .list > div > ul > li .gallery > ul {
+	float:right;
+	width:140px;
+	height:206px;
+	margin:0;
+}
+.content .list > div > ul > li .gallery > ul li {
+	overflow:hidden;
+	position:relative;
+	width:140px;
+	height:69px;
+}
+.content .list > div > ul > li .gallery > ul li img {
+	position:absolute;
+	left:0;
+	top:0;
+	min-width:140px;
+	min-height:69px;
+}
+.content .list > div > ul > li .gallery > ul li a {
+	position:relative;
+	display:block;
+	width:140px;
+	height:69px;
+}
+.content .list > div > ul > li .gallery > ul li a:before {
+	content:'';
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:1;
+	width:140px;
+	height:69px;
+	background:url('../img/preview_opacity.png') repeat;
+	opacity:1;
+	display:block\0;
+	transition:all 0.1s ease-in-out;
+	-webkit-transition:all 0.1s ease-in-out;
+	-moz-transition:all 0.1s ease-in-out;
+	-o-transition:all 0.1s ease-in-out;
+}
+.content .list > div > ul > li .gallery > ul li a:hover:before, .content .list > div > ul > li .gallery > ul li.active a:before {
+	opacity:0.4;
+	display:none\0;
+}
+.content .list > div > ul > li .gallery > ul li a:after {
+	content:'';
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+	width:140px;
+	height:69px;
+}
+.content .list > div > ul > li .gallery > ul li.icon1 a:after {
+	background:url('../img/preview_icon1.png') no-repeat center center;
+}
+.content .list > div > ul > li .gallery > ul li.icon2 a:after {
+	background:url('../img/preview_icon2.png') no-repeat center center;
+}
+.content .list > div > ul > li .gallery > ul li.icon3 a:after {
+	background:url('../img/preview_icon3.png') no-repeat center center;
+}
